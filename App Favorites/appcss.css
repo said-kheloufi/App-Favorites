@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+section img {
+    max-width: 10%;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.app-container {
+    display: flex;
+    align-items: center; 
+}
+
+.app-container img {
+    max-width: 150px; 
+    margin-right: 20px; 
+}
+
+
+.app-details {
+    flex: 1; 
+}
+
+body.app1 {
+    background-image: url('background\ tiktok.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #fff; 
+}
+
+body.app2 {
+    background-image: url('spotify\ background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #fff; 
+}
+
+body.app3 {
+    background-image: url('netflix\ background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #fff; 
+}
+
+.square {
+    width: 1200px;
+    height: 1200px;
+    background-color: #000000; 
+    background-image: url('votre-image.jpg'); 
+    background-size: cover; 
+    background-clip: content-box; 
+    padding: 50px; 
+}
+
+.apptitre {
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.appapp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*
+.appapp img {
+    width: 150px;
+    height: 150px;
+}
